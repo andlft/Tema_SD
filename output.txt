@@ -1,0 +1,132 @@
+N = 1000 Max = 1000
+Time executare timsort nativ: 0.0
+Timp executare radixsort_baza 10: 0.0009984970092773438
+Timp executare radixsort_baza 16: 0.0009987354278564453
+Timp executare radixsort_baza 256: 0.0010008811950683594
+Timp executare radixsort_baza 1024: 0.0
+Timp executare radixsort_baza 2^16: 0.004998683929443359
+Timp executare mergesort: 0.0020024776458740234
+Timp executare quicksort (pivot random): 0.0009996891021728516
+Timp executare quicksort cu (pivot din 3): 0.0010006427764892578
+Timp executare shellsort: 0.0019991397857666016
+Timp executare counting sort: 0.0
+----------------------------------------------------------------------------------------------------
+N = 100000 Max = 100
+Time executare timsort nativ: 0.006999492645263672
+Timp executare radixsort_baza 10: 0.0659945011138916
+Timp executare radixsort_baza 16: 0.04300236701965332
+Timp executare radixsort_baza 256: 0.026999473571777344
+Timp executare radixsort_baza 1024: 0.027000904083251953
+Timp executare radixsort_baza 2^16: 0.032999515533447266
+Timp executare mergesort: 0.289994478225708
+Timp executare quicksort (pivot random): 1.6499979496002197
+Timp executare quicksort cu (pivot din 3): 1.611999750137329
+Shellsort este prea incet!
+Timp executare counting sort: 0.007000446319580078
+----------------------------------------------------------------------------------------------------
+N = 100000 Max = 1000000
+Time executare timsort nativ: 0.01099848747253418
+Timp executare radixsort_baza 10: 0.19900035858154297
+Timp executare radixsort_baza 16: 0.1400001049041748
+Timp executare radixsort_baza 256: 0.0989999771118164
+Timp executare radixsort_baza 1024: 0.057999610900878906
+Timp executare radixsort_baza 2^16: 0.07799768447875977
+Timp executare mergesort: 0.2669994831085205
+Timp executare quicksort (pivot random): 0.1939992904663086
+Timp executare quicksort cu (pivot din 3): 0.17200136184692383
+Timp executare shellsort: 0.24700021743774414
+Timp executare counting sort: 0.04800128936767578
+----------------------------------------------------------------------------------------------------
+N = 1000000 Max = 1000
+Time executare timsort nativ: 0.1009984016418457
+Timp executare radixsort_baza 10: 1.574000597000122
+Timp executare radixsort_baza 16: 1.181999921798706
+Timp executare radixsort_baza 256: 0.8499996662139893
+Timp executare radixsort_baza 1024: 0.3530004024505615
+Timp executare radixsort_baza 2^16: 0.37299680709838867
+Timp executare mergesort: 3.642998218536377
+Timp executare quicksort (pivot random): 18.153998851776123
+Timp executare quicksort cu (pivot din 3): 18.388999462127686
+Shellsort este prea incet!
+Timp executare counting sort: 0.08299803733825684
+----------------------------------------------------------------------------------------------------
+N = 1000000 Max = 1000000000
+Time executare timsort nativ: 0.1939997673034668
+Timp executare radixsort_baza 10: 5.2210023403167725
+Timp executare radixsort_baza 16: 4.225999593734741
+Timp executare radixsort_baza 256: 2.151003122329712
+Timp executare radixsort_baza 1024: 1.5928411483764648
+Timp executare radixsort_baza 2^16: 1.1320009231567383
+Timp executare mergesort: 3.484002113342285
+Timp executare quicksort (pivot random): 2.7219996452331543
+Timp executare quicksort cu (pivot din 3): 2.3419981002807617
+Timp executare shellsort: 4.4920265674591064
+Nu exista suficienta memorie pentru counting sort
+----------------------------------------------------------------------------------------------------
+N = 100 Max = 100000000000
+Time executare timsort nativ: 0.0
+Timp executare radixsort_baza 10: 0.0
+Timp executare radixsort_baza 16: 0.0009996891021728516
+Timp executare radixsort_baza 256: 0.0
+Timp executare radixsort_baza 1024: 0.0
+Timp executare radixsort_baza 2^16: 0.010999679565429688
+Timp executare mergesort: 0.0
+Timp executare quicksort (pivot random): 0.0
+Timp executare quicksort cu (pivot din 3): 0.0
+Timp executare shellsort: 0.0
+Nu exista suficienta memorie pentru counting sort
+----------------------------------------------------------------------------------------------------
+N = 10000 Max = 100000000
+Time executare timsort nativ: 0.0010001659393310547
+Timp executare radixsort_baza 10: 0.021999597549438477
+Timp executare radixsort_baza 16: 0.016000986099243164
+Timp executare radixsort_baza 256: 0.009999752044677734
+Timp executare radixsort_baza 1024: 0.007999181747436523
+Timp executare radixsort_baza 2^16: 0.015000581741333008
+Timp executare mergesort: 0.021999120712280273
+Timp executare quicksort (pivot random): 0.014999151229858398
+Timp executare quicksort cu (pivot din 3): 0.013613700866699219
+Timp executare shellsort: 0.01599907875061035
+Timp executare counting sort: 2.7350032329559326
+----------------------------------------------------------------------------------------------------
+N = 10000000 Max = 1000
+Time executare timsort nativ: 1.045001745223999
+Timp executare radixsort_baza 10: 16.610317707061768
+Timp executare radixsort_baza 16: 12.489628314971924
+Timp executare radixsort_baza 256: 8.799163818359375
+Timp executare radixsort_baza 1024: 3.6117336750030518
+Timp executare radixsort_baza 2^16: 3.6080007553100586
+Timp executare mergesort: 44.27627968788147
+Prea multe numere egale pentru quicksort! - Algoritmul nu a putut sorta (trece peste limita de recursie).
+Prea multe numere egale pentru quicksort! - Algoritmul nu a putut sorta (trece peste limita de recursie).
+Shellsort este prea incet!
+Timp executare counting sort: 0.858997106552124
+----------------------------------------------------------------------------------------------------
+N = 10000000 Max = 1000000
+Time executare timsort nativ: 2.913001775741577
+Timp executare radixsort_baza 10: 37.480114459991455
+Timp executare radixsort_baza 16: 26.487236261367798
+Timp executare radixsort_baza 256: 16.468355178833008
+Timp executare radixsort_baza 1024: 10.416274309158325
+Timp executare radixsort_baza 2^16: 11.787598609924316
+Timp executare mergesort: 45.17972111701965
+Timp executare quicksort (pivot random): 40.572404861450195
+Timp executare quicksort cu (pivot din 3): 36.15335559844971
+Timp executare shellsort: 63.96594023704529
+Timp executare counting sort: 1.2196109294891357
+----------------------------------------------------------------------------------------------------
+N = 100000000 Max = 1000000                    #Pentru testul asta foloseste undeva la 10GB ram!!!!!
+Time executare timsort nativ: 38.297895669937134
+Radixsort_baza 10 este prea incet!
+Radixsort_baza 16 este prea incet!
+Radixsort_ baza 256 este prea incet!
+Timp executare radixsort_baza 1024: 111.19263887405396
+Radixsort_baza 2^16 este prea incet!
+Mergesort este prea incet!
+Quicksort este prea incet!
+Quicksort este prea incet!
+Shellsort este prea incet!
+Timp executare counting sort: 10.639345407485962
+----------------------------------------------------------------------------------------------------
+
+Process finished with exit code 0
